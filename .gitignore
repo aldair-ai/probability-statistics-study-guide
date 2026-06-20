@@ -14,8 +14,9 @@ env/
 # Jupyter
 .ipynb_checkpoints/
 
-# Local only: original course slides and assistant instructions
+# Local only: original course slides, personal notebooks and assistant instructions
 materials/
+notebooks/
 CLAUDE.md
 
 # OS and editor files
