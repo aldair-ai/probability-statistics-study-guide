@@ -1,6 +1,6 @@
 # ECE 225A Study Notes: Probability
 
-Personal study repository for ECE 225A at UC San Diego, taught by Alon Orlitsky. The course builds probability from first principles and uses it as the foundation for statistics and data science. This repo starts with the **Probability Review** module, split into five sessions. Each session has a runnable notebook, a set of practice problems to solve by hand for midterm and final prep, worked solutions, and a one-page cheatsheet.
+Personal study repository for ECE 225A at UC San Diego, taught by Alon Orlitsky. The course builds probability from first principles and uses it as the foundation for statistics and data science. This repo has four modules so far, from the **Probability Review** to the **Normal Distribution**. Each session has a runnable notebook, a set of practice problems to solve by hand for midterm and final prep, worked solutions, and a one-page cheatsheet.
 
 ## Sessions
 
@@ -13,6 +13,28 @@ Personal study repository for ECE 225A at UC San Diego, taught by Alon Orlitsky.
 | [03 Bayes, random variables, expectation](module-01-probability-review/session-03-bayes-random-variables-expectation/) | Law of total probability, Bayes' rule, random variables, PMF and CDF, expectation, tail sums, LOTUS, linearity, indicator method |
 | [04 Variance, covariance, joint distributions](module-01-probability-review/session-04-variance-covariance-joint/) | Variance and standard deviation, affine transformations, joint distributions, covariance, independent vs uncorrelated, variance of sums, correlation coefficient |
 | [05 Distribution families](module-01-probability-review/session-05-distribution-families/) | Bernoulli, binomial, Poisson, geometric, continuous distributions (PDF, CDF, expectation), functions of continuous random variables |
+
+### Module 02: Binomial and Geometric Applications
+
+| Session | Topics |
+|---|---|
+| [01 Why vote](module-02-binomial-geometric-applications/session-01-why-vote/) | The chance that one vote decides an election, the central binomial term, Stirling's approximation |
+| [02 Geometric examples](module-02-binomial-geometric-applications/session-02-geometric-examples/) | Alternating games and odd or even geometric values, the worst-case risk of a rocket program |
+
+### Module 03: Uniform and Exponential Distributions
+
+| Session | Topics |
+|---|---|
+| [01 Uniform distribution](module-03-uniform-exponential/session-01-uniform-distribution/) | Density, CDF, ratio-of-lengths probabilities, closure under affine maps, mean and variance |
+| [02 Exponential distribution and service times](module-03-uniform-exponential/session-02-exponential-distribution/) | The limit of the geometric, density and tail, moments and median, scaling, memorylessness, finishing last at a service counter |
+
+### Module 04: The Normal Distribution
+
+| Session | Topics |
+|---|---|
+| [01 Normal distribution](module-04-normal-distribution/session-01-normal-distribution/) | Density and shape, closure under affine maps, the standard normal, the Gaussian integral, mean and variance |
+| [02 Normal probabilities](module-04-normal-distribution/session-02-normal-probabilities/) | The Z table, negative values, standardizing, deviations from the mean, the 68-95-99.7 rule, rare events |
+| [03 Normal approximation of the binomial](module-04-normal-distribution/session-03-normal-approximation-binomial/) | The De Moivre-Laplace theorem, the proof at the center, the continuity correction, interval probabilities |
 
 Each session folder contains:
 
